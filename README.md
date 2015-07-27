@@ -10,7 +10,7 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 **Table of Contents**
 
-- [sawaal [![Version](http://img.shields.io/gem/v/sawaal.svg?style=flat-square)](https://rubygems.org/gems/sawaal)](#sawaal-versionhttpimgshieldsiogemvsawaalsvgstyleflat-squarehttpsrubygemsorggemssawaal)
+- [sawaal](#sawaal)
 - [Summary](#summary)
     - [Installation](#installation)
     - [Usage](#usage)
