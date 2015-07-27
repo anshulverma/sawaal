@@ -1,4 +1,9 @@
 
+0.0.2 / 2015-07-27
+==================
+
+Fixed gemspec so that we can push a gem release.
+
 0.0.1 / 2015-07-27
 ==================
 
