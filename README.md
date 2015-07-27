@@ -7,6 +7,19 @@
 [![Inline docs](http://inch-ci.org/github/anshulverma/sawaal.svg?style=flat-square)](http://inch-ci.org/github/anshulverma/sawaal)
 [![Downloads](http://img.shields.io/gem/dt/sawaal.svg?style=flat-square)](https://rubygems.org/gems/sawaal)
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+**Table of Contents**
+
+- [sawaal [![Version](http://img.shields.io/gem/v/sawaal.svg?style=flat-square)](https://rubygems.org/gems/sawaal)](#sawaal-versionhttpimgshieldsiogemvsawaalsvgstyleflat-squarehttpsrubygemsorggemssawaal)
+- [Summary](#summary)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+
+<!-- markdown-toc end -->
+
+# Summary
+
 TODO: Write a gem description
 
 ## Installation
