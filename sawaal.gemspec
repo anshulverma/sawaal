@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Anshul Verma']
   spec.email         = ['anshul.verma86@gmail.com']
   spec.homepage      = 'https://github.com/anshulverma/sawaal'
+  spec.summary       = %q{Helper gem for asking questions on terminal}
   spec.description   = <<-EOS
                           A helper module to allow user to ask a question
                           on the terminal that has multiple choices
