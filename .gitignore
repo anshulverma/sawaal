@@ -1,0 +1,25 @@
+# Temporary files
+*~
+*#*
+
+# Log files
+*.log
+
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ruby gem
+*.gem
+Gemfile.lock
+
+# Documentation
+.doc/
+/doc/
+
+# Metric reports
+coverage/
+.metrics/
+/.yardoc/

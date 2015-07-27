@@ -1,0 +1,28 @@
+# SCM
+-.git/
+
+# Temporary files
+*~
+*#*
+
+# Log files
+*.log
+
+# Ruby gem
+*.gem
+Gemfile.lock
+
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Documentation
+.doc/
+doc/
+
+# Metric reports
+coverage/
+.metrics/
+.yardoc/
