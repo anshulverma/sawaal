@@ -7,10 +7,6 @@ if ENV['CI']
     config.logger.level = Logger::WARN
   end
   CodeClimate::TestReporter.start
-
-  # enable coveralls
-  require 'coveralls'
-  Coveralls.wear!
 end
 
 # enable simplecov for code coverage
