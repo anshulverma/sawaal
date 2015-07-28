@@ -2,6 +2,6 @@
 
 describe Sawaal do
   it 'has a valid version tag' do
-    expect(Sawaal::VERSION).to(eq('0.0.3'))
+    expect(Sawaal::VERSION).to(eq('1.0.0'))
   end
 end
