@@ -13,7 +13,7 @@ begin
 
   # verify_measurements task
   Yardstick::Rake::Verify.new do |verify|
-    verify.threshold = 100
+    verify.threshold = 80
     verify.require_exact_threshold = false
   end
 rescue LoadError

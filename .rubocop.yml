@@ -12,14 +12,15 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   CountComments: false
-  Max: 15
+  Max: 17
   Exclude:
     - 'spec/**/*_spec.rb'
 
 Metrics/AbcSize:
-  Max: 10
+  Max: 16.61
   Exclude:
     - 'spec/**/*_spec.rb'
+    - 'spec/spec_util.rb'
 
 Metrics/ClassLength:
   CountComments: false
@@ -28,3 +29,45 @@ Metrics/ClassLength:
 
 Metrics/ParameterLists:
   Max: 5
+
+Lint/SpaceBeforeFirstArg:
+  Enabled: true
+
+Style/BracesAroundHashParameters:
+  Enabled: true
+
+Style/ClassCheck:
+  Enabled: true
+
+Style/Encoding:
+  Enabled: true
+
+Style/FirstParameterIndentation:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/IndentHash:
+  Enabled: true
+
+Style/MultilineIfThen:
+  Enabled: true
+
+Style/PercentLiteralDelimiters:
+  Enabled: true
+
+Style/Semicolon:
+  Enabled: true
+
+Style/UnneededPercentQ:
+  Enabled: true
+
+Lint/EnsureReturn:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: true
+
+Style/RescueModifier:
+  Enabled: true
