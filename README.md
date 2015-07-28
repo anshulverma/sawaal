@@ -3,7 +3,6 @@
 [![Build](http://img.shields.io/travis-ci/anshulverma/sawaal.svg?style=flat-square)](https://travis-ci.org/anshulverma/sawaal)
 [![Coverage](http://img.shields.io/codeclimate/coverage/github/anshulverma/sawaal.svg?style=flat-square)](https://codeclimate.com/github/anshulverma/sawaal)
 [![Quality](http://img.shields.io/codeclimate/github/anshulverma/sawaal.svg?style=flat-square)](https://codeclimate.com/github/anshulverma/sawaal)
-[![Dependencies](http://img.shields.io/gemnasium/anshulverma/sawaal.svg?style=flat-square)](https://gemnasium.com/anshulverma/sawaal)
 [![Inline docs](http://inch-ci.org/github/anshulverma/sawaal.svg?style=flat-square)](http://inch-ci.org/github/anshulverma/sawaal)
 [![Downloads](http://img.shields.io/gem/dt/sawaal.svg?style=flat-square)](https://rubygems.org/gems/sawaal)
 
