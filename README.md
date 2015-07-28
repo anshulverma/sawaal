@@ -11,16 +11,36 @@
 **Table of Contents**
 
 - [sawaal](#sawaal)
-- [Summary](#summary)
+- [Quickstart](#quickstart)
     - [Installation](#installation)
     - [Usage](#usage)
     - [Contributing](#contributing)
 
 <!-- markdown-toc end -->
 
-# Summary
+# Quickstart
 
-TODO: Write a gem description
+Here is an example usage of this gem. This should be enough to get
+started with `sawaal`.
+
+``` ruby
+require 'sawaal'
+
+selected = Sawaal::Selector.choose(
+    'which key is the best?', {
+      :key1 => 'key1 is the best',
+      :key2 => 'key2 is the best for sure',
+      :key3 => 'key3 might be the one',
+      :key4 => 'key4 is surely the best',
+      :key5 => 'key5'
+    })
+
+puts selected
+```
+
+The only thing to remember is that in the choose call, you can use
+either a hash of options or an array. If you used an array, the return
+selected value will be the 0-based index of the selected item.
 
 ## Installation
 
