@@ -16,6 +16,17 @@ List of changes so far that have been released to ruby gems.
 
 <!-- markdown-toc end -->
 
+1.1.0 / 2015-07-29
+==================
+
+## Minor improvements
+
+### Hide help on keypress
+
+## Bugfixes
+
+### Read C-c properly
+
 1.0.2 / 2015-07-29
 ==================
 
