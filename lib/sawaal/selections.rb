@@ -23,7 +23,7 @@ module Sawaal
         when TTY::MOVE_DOWN
           @cursor.highlight(@cursor.current_line_index + 1)
         when TTY::CONTROL_C
-          @cursor.write_selection(red('terminated'))
+          @cursor.write_selection(red('<terminated>'))
           exit 33
         end
       end

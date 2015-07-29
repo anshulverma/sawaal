@@ -33,7 +33,7 @@ module Sawaal
     RESTORE_POSITION = ansii_escape('u')
 
     RETURN = "\r"
-    CONTROL_C = '\\u0003'
+    CONTROL_C = "\u0003"
 
     ARROW = '‣'
   end
