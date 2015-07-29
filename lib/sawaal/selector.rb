@@ -10,7 +10,7 @@ module Sawaal
       selections = Selections.new(cursor, options)
 
       cursor.save_excursion do
-        cursor.write_question question
+        cursor.write_question(question)
         selections.write
         selections.select
       end

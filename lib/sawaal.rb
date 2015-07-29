@@ -3,12 +3,12 @@
 require 'io/console'
 require 'timeout'
 
-require 'sawaal/color'
-require 'sawaal/cursor'
-require 'sawaal/selections'
-require 'sawaal/selector'
-require 'sawaal/tty'
-require 'sawaal/version'
+require_relative './sawaal/color'
+require_relative './sawaal/cursor'
+require_relative './sawaal/selections'
+require_relative './sawaal/selector'
+require_relative './sawaal/tty'
+require_relative './sawaal/version'
 
 # Helps a command line application by allowing it to ask
 # multiple choice questions

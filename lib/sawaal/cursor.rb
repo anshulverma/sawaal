@@ -12,6 +12,7 @@ module Sawaal
     def initialize
       @text = []
       @current_line_index = -1
+      @help_hidden = false
     end
 
     def save_excursion(&block)
@@ -43,6 +44,15 @@ module Sawaal
       TTY.print "#{green('?')} #{bold(question)} "
       save_position
       TTY.print '(use arrow keys, press <enter> when finished)'
+    end
+
+    def hide_help
+      return if @help_hidden
+      restore_position
+      clear_line
+      move_down
+      move_to_beginning
+      @help_hidden = true
     end
 
     def write_item(item)

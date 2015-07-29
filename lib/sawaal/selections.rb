@@ -15,22 +15,32 @@ module Sawaal
     def select
       loop do
         ch = read_char
-        case ch
-        when TTY::RETURN
-          break
-        when TTY::MOVE_UP
-          @cursor.highlight(@cursor.current_line_index - 1)
-        when TTY::MOVE_DOWN
-          @cursor.highlight(@cursor.current_line_index + 1)
-        when TTY::CONTROL_C
-          @cursor.write_selection(red('<terminated>'))
-          exit 33
-        end
+
+        # hide help after any keypress
+        @cursor.hide_help
+
+        # selection has been made
+        break if ch == TTY::RETURN
+
+        # move selection
+        handle_input(ch)
       end
 
       selected = @cursor.current_line_index
       @cursor.write_selection(@items[selected])
       @keys[@cursor.current_line_index]
+    end
+
+    def handle_input(ch)
+      case ch
+      when TTY::MOVE_UP
+        @cursor.highlight(@cursor.current_line_index - 1)
+      when TTY::MOVE_DOWN
+        @cursor.highlight(@cursor.current_line_index + 1)
+      when TTY::CONTROL_C
+        @cursor.write_selection(red('<terminated>'))
+        exit 33
+      end
     end
 
     def write

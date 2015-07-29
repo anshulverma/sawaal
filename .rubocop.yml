@@ -12,12 +12,12 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   CountComments: false
-  Max: 17
+  Max: 12
   Exclude:
     - 'spec/**/*_spec.rb'
 
 Metrics/AbcSize:
-  Max: 16.61
+  Max: 12
   Exclude:
     - 'spec/**/*_spec.rb'
     - 'spec/spec_util.rb'
