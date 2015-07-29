@@ -14,6 +14,11 @@ List of changes so far that have been released to ruby gems.
 
 <!-- markdown-toc end -->
 
+1.0.1 / 2015-07-29
+==================
+
+Bugfixes and minor improvements
+
 1.0.0 / 2015-07-27
 ==================
 
