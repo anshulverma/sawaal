@@ -3,6 +3,8 @@ List of changes so far that have been released to ruby gems.
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 **Table of Contents**
 
+- [1.0.2 / 2015-07-29](#102--2015-07-29)
+- [1.0.1 / 2015-07-29](#101--2015-07-29)
 - [1.0.0 / 2015-07-27](#100--2015-07-27)
     - [Features](#features)
         - [Ability to select item from a list](#ability-to-select-item-from-a-list)
@@ -13,6 +15,12 @@ List of changes so far that have been released to ruby gems.
 - [0.0.1 / 2015-07-27](#001--2015-07-27)
 
 <!-- markdown-toc end -->
+
+1.0.2 / 2015-07-29
+==================
+
+Bugfixes
+
 
 1.0.1 / 2015-07-29
 ==================
