@@ -1,10 +1,5 @@
 # encoding: utf-8
 
-require 'io/console'
-
-require 'sawaal/cursor'
-require 'sawaal/selections'
-
 module Sawaal
   # Way into invoking the selection
   #

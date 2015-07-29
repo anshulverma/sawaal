@@ -1,7 +1,13 @@
 # encoding: utf-8
 
-require 'sawaal/version'
+require 'io/console'
+
+require 'sawaal/color'
+require 'sawaal/cursor'
+require 'sawaal/selections'
 require 'sawaal/selector'
+require 'sawaal/tty'
+require 'sawaal/version'
 
 # Helps a command line application by allowing it to ask
 # multiple choice questions

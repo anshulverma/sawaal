@@ -1,8 +1,5 @@
 # encoding: utf-8
 
-require 'sawaal/color'
-require 'sawaal/tty'
-
 module Sawaal
   # Handle cursor movements and text highlighting
   #
