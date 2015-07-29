@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'io/console'
+require 'timeout'
 
 require 'sawaal/color'
 require 'sawaal/cursor'
