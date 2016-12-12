@@ -6,16 +6,6 @@
 [![Inline docs](http://inch-ci.org/github/anshulverma/sawaal.svg?style=flat-square)](http://inch-ci.org/github/anshulverma/sawaal)
 [![Downloads](http://img.shields.io/gem/dt/sawaal.svg?style=flat-square)](https://rubygems.org/gems/sawaal)
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
-**Table of Contents**
-
-- [sawaal](#sawaal)
-- [Quickstart](#quickstart)
-    - [Installation](#installation)
-    - [Contributing](#contributing)
-
-<!-- markdown-toc end -->
-
 # Quickstart
 
 Here is an example usage of this gem. This should be enough to get
